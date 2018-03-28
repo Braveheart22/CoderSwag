@@ -10,13 +10,10 @@ import android.widget.TextView
 import com.example.john.coderswag.Model.Category
 import com.example.john.coderswag.R
 
-/**
+/**.
  * Created by John on 3/28/2018.
  */
-class CategoryAdapter (context: Context, categories: List<Category>) : BaseAdapter () {
-
-    val context = context
-    val categories = categories
+class CategoryAdapter (val context: Context, val categories: List<Category>) : BaseAdapter () {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val categoryView: View
