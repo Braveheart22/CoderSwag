@@ -6,9 +6,10 @@ import android.os.Parcelable
 /**
  * Created by John on 3/28/2018.
  */
-class Product(val title: String, val price: String, val image: String) : Parcelable  {
+class Product(val title: String, val price: String, val image: String, val description: String) : Parcelable  {
 
     constructor(parcel: Parcel) : this(
+            parcel.readString(),
             parcel.readString(),
             parcel.readString(),
             parcel.readString())
@@ -17,7 +18,7 @@ class Product(val title: String, val price: String, val image: String) : Parcela
         parcel.writeString(title)
         parcel.writeString(price)
         parcel.writeString(image)
-
+        parcel.writeString(description)
     }
 
     override fun describeContents(): Int {

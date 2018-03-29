@@ -15,29 +15,29 @@ object DataService {
             Category("DIGITAL", "digitalgoodsimage")
     )
 
-    val hats = listOf(
-            Product ("Devslopes Graphic Beenie", "$18.00", "hat1"),
-            Product ("Devslopes Hat Black", "$20.00", "hat2"),
-            Product ("Devslopes Hat White", "$18.00", "hat3"),
-            Product ("Devslopes Hat Snapback", "$22.00", "hat4")
+    private val hats = listOf(
+            Product ("Devslopes Graphic Beenie", "$18.00", "hat1", "Structured Twill Cap"),
+            Product ("Devslopes Hat Black", "$20.00", "hat2", "Structured Twill Cap"),
+            Product ("Devslopes Hat White", "$18.00", "hat3", "Structured Twill Cap"),
+            Product ("Devslopes Hat Snapback", "$22.00", "hat4", "Structured Twill Cap")
     )
 
-    val hoodies = listOf(
-            Product ("Devslopes Hoodie Gray", "$28.00", "hoodie1"),
-            Product ("Devslopes Hoodie Red", "$32.00", "hoodie2"),
-            Product ("Devslopes Red Hoodie", "$28.00", "hoodie3"),
-            Product ("Devslopes Black Hoodie", "$28.00", "hoodie4")
+    private val hoodies = listOf(
+            Product ("Devslopes Hoodie Gray", "$28.00", "hoodie1", "A sporty hoodie with a soft inside. The iconic zip hoodie you see Silicon Valley big shots wearing - the understated yet classic look, giving... "),
+            Product ("Devslopes Hoodie Red", "$32.00", "hoodie2", "A sporty hoodie with a soft inside. The iconic zip hoodie you see Silicon Valley big shots wearing - the understated yet classic look, giving... "),
+            Product ("Devslopes Red Hoodie", "$28.00", "hoodie3", "A sporty hoodie with a soft inside. The iconic zip hoodie you see Silicon Valley big shots wearing - the understated yet classic look, giving... "),
+            Product ("Devslopes Black Hoodie", "$28.00", "hoodie4", "A sporty hoodie with a soft inside. The iconic zip hoodie you see Silicon Valley big shots wearing - the understated yet classic look, giving... ")
     )
 
-    val shirts = listOf(
-            Product ("Devslopes Shirt Gray", "$18.00", "shirt1"),
-            Product ("Devslopes Badge Light Gray", "$20.00", "shirt2"),
-            Product ("Devslopes Logo Shirt Red", "$22.00", "shirt3"),
-            Product ("Devslopes Hustle", "$22.00", "shirt4"),
-            Product ("Devslopes Kickflip Studios", "$18.00", "shirt5")
+    private val shirts = listOf(
+            Product ("Devslopes Shirt Gray", "$18.00", "shirt1", "Made of fine jersey, it has a durable, vintage feel. These classic-cut shirts are known for their premium quality, as well as ability to stand... "),
+            Product ("Devslopes Badge Light Gray", "$20.00", "shirt2", "Made of fine jersey, it has a durable, vintage feel. These classic-cut shirts are known for their premium quality, as well as ability to stand... "),
+            Product ("Devslopes Logo Shirt Red", "$22.00", "shirt3", "Made of fine jersey, it has a durable, vintage feel. These classic-cut shirts are known for their premium quality, as well as ability to stand... "),
+            Product ("Devslopes Hustle", "$22.00", "shirt4", "Made of fine jersey, it has a durable, vintage feel. These classic-cut shirts are known for their premium quality, as well as ability to stand... "),
+            Product ("Devslopes Kickflip Studios", "$18.00", "shirt5", "Made of fine jersey, it has a durable, vintage feel. These classic-cut shirts are known for their premium quality, as well as ability to stand... ")
     )
 
-    val digitalGoods = listOf<Product>()
+    private val digitalGoods = listOf<Product>()
 
     fun getProducts (category: String) : List<Product>{
 
