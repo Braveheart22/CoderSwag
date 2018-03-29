@@ -11,7 +11,7 @@ class ProductsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_products)
 
-        val categoryType = intent.getStringArrayExtra(EXTRA_CATEGORY)
-        println(categoryType)
+        val categoryType = intent.getStringExtra(EXTRA_CATEGORY)
+        println("Category: $categoryType")
     }
 }
