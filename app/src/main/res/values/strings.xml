@@ -4,4 +4,6 @@
     <string name="products">Products</string>
     <string name="product">Product</string>
     <string name="categories">Categories</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="item_for_sale">Item for sale</string>
 </resources>
